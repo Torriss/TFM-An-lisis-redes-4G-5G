@@ -1,0 +1,9 @@
+Introducción y Objetivos
+
+1.1 Introducción
+
+El uso de redes de comunicación móvil ha incrementado exponencialmente desde su aparición en los años 70. Ha pasado de transmitir voz a descargar grandes cantidades de datos, como páginas web, juegos de video o contenido multimedia. Con la llegada del 5G, se espera que esto incremente aún más.
+
+Actualmente, las tasas de transferencia de datos en 4G presentan variaciones muy abruptas en tan solo unos milisegundos. Esto se debe principalmente a decisiones de programación y a variaciones en los canales de radio. Para asegurar que estas variaciones no afecten la Calidad de Experiencia (QoE) del usuario, se utilizan algoritmos de adaptación en el lado del terminal, como el Streaming Adaptativo por HTTP (HAS) o TCP, que usan, entre otras cosas, técnicas como la recepción de buffering o la adaptación de tasa.
+
+Uno de los principales problemas que existen en el proceso de mejorar este tipo de algoritmo es la escasez de conjuntos de datos que estudien estas variaciones. La dificultad para manejar grandes volúmenes de datos, así como su confidencialidad, son factores que hacen su estudio muy complicado. Para mejorar estos algoritmos, es esencial entender cómo se relacionan el throughput y el estado del canal de radio, del cual hay pocos estudios. Este es el problema que se abordará en este proyecto.
